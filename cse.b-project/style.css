@@ -1,0 +1,59 @@
+.parent{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+img{
+     width: 200px;
+     height: 150px;
+     border-radius: 30%;
+     border: black 3px solid;
+}
+.parent>div{
+    width: auto;
+    border: black 5px solid;
+    margin: 1%;
+    padding: 1%;
+    background-color: burlywood;
+}
+h1{
+    color: black;
+}
+h2{
+  color: blue;
+}
+h3{
+    color: brown;
+}
+h4{
+    color:black;
+}
+h5{
+    color:black;
+}
+h6{
+    color: black;
+}
+button{
+    color: red;
+}
+@media only screen and (min-width:320px) and (max-width:display: 480px){
+.parent{
+    display:flex;
+    flex-direction:row;
+}
+.parent>div{
+    width:80%;
+    border: 2px dotted blue;
+}
+
+
+    
+
+
+
+

@@ -1,0 +1,64 @@
+
+.card{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+img{
+     width: 200px;
+     height: 150px;
+     border-radius: 30%;
+     border: black 3px solid;
+}
+.card>div{
+    width: auto;
+    border: black 5px solid;
+    margin: 1%;
+    padding: 1%;
+    background-color: burlywood;
+}
+h1{
+    color: black;
+    justify-content: center;
+}
+h2{
+  color: blue;
+  justify-content: center;
+}
+h3{
+    color: brown;
+    justify-content: center;
+}
+h4{
+    color:black;
+    justify-content: center;
+}
+h5{
+    color:black;
+    justify-content: center;
+}
+h6{
+    color: black;
+    justify-content: center;
+}
+@media only screen and (min-width:320px) and (max-width:display: 480px){
+    .card{
+        display:flex;
+        flex-direction:row;
+    }
+    .parent>card{
+        width:80%;
+        border: 2px dotted blue;
+    }
+    
+    
+
+
+    
+
+
+
